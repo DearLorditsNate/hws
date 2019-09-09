@@ -1,0 +1,22 @@
+body {
+    background-color: #1b4a55;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    /* width: 100%; */
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 75vh;
+}
+
+h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: -15vh;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.5em;
+}
