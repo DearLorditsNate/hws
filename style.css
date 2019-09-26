@@ -25,6 +25,7 @@ body {
     line-height: 1.5em;
     margin-top: 5%;
     font-size: 1.5em;
+    animation: fadein 6s;
 }
 
 .sidenav {
@@ -34,4 +35,13 @@ body {
 body>ul>li>a:hover {
     background-color: #81c3c9 !important;
     color: white;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
