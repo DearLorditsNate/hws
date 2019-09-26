@@ -32,6 +32,11 @@ body {
     background-color: white;
 }
 
+.active-nav {
+    background-color: #81c3c9;
+    color: white !important;
+}
+
 body>ul>li>a:hover {
     background-color: #81c3c9 !important;
     color: white;
