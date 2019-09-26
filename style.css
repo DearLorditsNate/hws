@@ -3,21 +3,35 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-img {
+.logo-landing {
     display: block;
     margin: auto;
     width: 20em;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
-h1 {
+.logo-nav {
+    display: block;
+    margin: auto;
+    width: 20em;
+    margin-top: -15%;
+}
+
+.tagline {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.4em;
+    line-height: 1.5em;
     margin-top: 5%;
+    font-size: 1.5em;
 }
 
-ul {
+.sidenav {
     background-color: white;
+}
+
+body>ul>li>a:hover {
+    background-color: #81c3c9 !important;
+    color: white;
 }
