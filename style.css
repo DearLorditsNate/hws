@@ -25,7 +25,7 @@ body {
     display: block;
     margin: auto;
     width: 20em;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .logo-nav {
@@ -67,6 +67,7 @@ body>ul>li>a:hover {
 
 .page-header {
     margin-top: 75px;
+    font-size: 3rem;
 }
 
 /* Services Dropdowns */
@@ -80,7 +81,7 @@ body>ul>li>a:hover {
 }
 
 .collapsible {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .collapsible-header {
@@ -98,11 +99,26 @@ body>ul>li>a:hover {
 .contact-info {
     display: inline-block;
     margin-bottom: 30px;
-    font-size: 34px;
+    /* font-size: 34px; */
+    font-size: 1.8rem;
     color: white;
 }
 
 .contact {
-    margin-top: 175px;
+    margin-top: 125px;
     letter-spacing: 0.4em;
+}
+
+main {
+    padding-left: 300px;
+}
+
+main>.container {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    main {
+        padding-left: 0;
+    }
 }
