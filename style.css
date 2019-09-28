@@ -17,11 +17,15 @@ body {
     margin-top: -15%;
 }
 
-.tagline {
+.tagline, .page-header, .collapsible-header, .sidenav {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.4em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tagline {
     line-height: 1.5em;
     margin-top: 5%;
     font-size: 1.5em;
@@ -49,4 +53,39 @@ body>ul>li>a:hover {
     to {
         opacity: 1;
     }
+}
+
+.page-header {
+    margin-top: 75px;
+}
+
+/* Services Dropdowns */
+
+.service-header {
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #81c3c9;
+    padding-bottom: 18px;
+}
+
+.collapsible {
+    margin-top: 100px;
+}
+
+.collapsible-header {
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.collapsible-body {
+    background-color: white;
+    font-size: 18px;
+}
+
+/* Fontawesome Icons */
+
+.fa {
+    color: white;
 }
