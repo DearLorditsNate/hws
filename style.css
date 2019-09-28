@@ -1,14 +1,24 @@
-.tagline, .page-header, .collapsible-header, .sidenav {
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    letter-spacing: 0.4em;
-    font-family: 'Montserrat', sans-serif;
+@font-face {
+    font-family: "Open Sans";
+    src: url("assets/fonts/Open_Sans/OpenSans-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/fonts/Montserrat/Montserrat-Regular.ttf")
 }
 
 body {
     background-color: #1b4a55;
     font-family: 'Open Sans', sans-serif;
+}
+
+.tagline, .page-header, .collapsible-header, .sidenav, .contact {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.4em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo-landing {
@@ -62,6 +72,7 @@ body>ul>li>a:hover {
 /* Services Dropdowns */
 
 .service-header {
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
     border-bottom: 1px solid #81c3c9;
@@ -93,7 +104,5 @@ body>ul>li>a:hover {
 
 .contact {
     margin-top: 175px;
-    text-transform: uppercase;
     letter-spacing: 0.4em;
-    font-family: 'Montserrat', sans-serif;
 }
