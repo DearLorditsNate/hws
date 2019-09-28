@@ -99,7 +99,6 @@ body>ul>li>a:hover {
 .contact-info {
     display: inline-block;
     margin-bottom: 30px;
-    /* font-size: 34px; */
     font-size: 1.8rem;
     color: white;
 }
@@ -115,6 +114,34 @@ main {
 
 main>.container {
     width: 100%;
+}
+
+/* Client Profiles */
+
+.client-logo {
+    display: block;
+    /* margin: auto; */
+    max-width: 50%;
+    margin: 40px auto;
+}
+
+.client-project-img-col {
+    padding: 0 !important;
+}
+
+.client-project-img {
+    max-width: 100%;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    width: 25%;
+    background-color: #1b4a55;
+}
+
+.btn:hover {
+    background-color: #81c3c9;
 }
 
 @media only screen and (max-width: 992px) {
