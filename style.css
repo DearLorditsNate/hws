@@ -176,6 +176,16 @@ main>.container {
     margin-top: 80px;
 }
 
+.client-row {
+    margin-bottom: 0px;
+    border-bottom: 4px dotted #81c3c9;
+    padding: 20px 0;
+}
+
+.no-border {
+    border: none;
+}
+
 .btn {
     display: block;
     margin: auto;
@@ -219,5 +229,9 @@ main>.container {
     .btn {
         width: 40%;
         margin-bottom: 15px;
+    }
+    .client-row {
+        border: none;
+        padding: 0;
     }
 }
