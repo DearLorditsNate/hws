@@ -120,18 +120,6 @@ nav {
     font-size: 18px;
 }
 
-.contact-info {
-    display: inline-block;
-    margin-bottom: 30px;
-    font-size: 1.8rem;
-    color: white;
-}
-
-.contact {
-    margin-top: 125px;
-    letter-spacing: 0.4em;
-}
-
 main {
     padding-left: 300px;
 }
@@ -168,11 +156,33 @@ main>.container {
     background-color: #81c3c9;
 }
 
+/* Contact */
+
+.contact-info {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.contact {
+    margin-top: 125px;
+    letter-spacing: 0.4em;
+}
+
+.fa {
+    color: white;
+    margin: 40px;
+}
+
 @media only screen and (max-width: 992px) {
     main {
         padding-left: 0;
     }
     nav {
         background-color: white;
+    }
+    .contact {
+        margin-top: 0;
     }
 }
