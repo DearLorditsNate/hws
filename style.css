@@ -239,4 +239,7 @@ main>.container {
     .collapsible {
         margin-top: 0;
     }
+    .logo-landing {
+        margin-top: 4%;
+    }
 }
