@@ -232,7 +232,6 @@ main>.container {
     }
     .client-row {
         border-bottom: 2px dotted #81c3c9;
-        padding: 0;
     }
     .no-border {
         border: none;
