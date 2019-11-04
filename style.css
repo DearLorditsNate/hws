@@ -185,4 +185,8 @@ main>.container {
     .contact {
         margin-top: 0;
     }
+    .btn {
+        width: 40%;
+        margin-bottom: 15px;
+    }
 }
