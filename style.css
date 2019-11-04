@@ -1,19 +1,177 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("assets/fonts/Open_Sans/OpenSans-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/fonts/Montserrat/Montserrat-Regular.ttf")
+}
+
 body {
     background-color: #1b4a55;
     font-family: 'Open Sans', sans-serif;
 }
 
-img {
-    display: block;
-    margin: auto;
-    width: 20em;
-    margin-top: 10%;
-}
-
-h1 {
+.tagline, .page-header, .collapsible-header, .sidenav, .contact {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.4em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-landing {
+    display: block;
+    margin: auto;
+    width: 20em;
+    margin-top: 15%;
+}
+
+.logo-nav {
+    display: block;
+    margin: auto;
+    width: 20em;
+    margin-top: -15%;
+}
+
+.tagline {
+    line-height: 1.5em;
     margin-top: 5%;
+    font-size: 1.5em;
+    animation: fadein 6s;
+}
+
+.sidenav {
+    background-color: white;
+}
+
+.active-nav {
+    background-color: #81c3c9;
+    color: white !important;
+}
+
+body>ul>li>a:hover {
+    background-color: #81c3c9 !important;
+    color: white;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.page-header {
+    margin-top: 75px;
+    font-size: 3rem;
+}
+
+/* Nav */
+
+nav {
+    background-color: #1b4a55;
+    box-shadow: none;
+}
+
+.material-icons {
+    color: #1b4a55;
+}
+
+.nav-header {
+    position: relative;
+    left: -20px;
+    text-transform: uppercase;
+    color: #1b4a55;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.25em;
+}
+
+/* Services Dropdowns */
+
+.service-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #81c3c9;
+    padding-bottom: 18px;
+}
+
+.collapsible {
+    margin-top: 50px;
+}
+
+.collapsible-header {
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.collapsible-body {
+    background-color: white;
+    font-size: 18px;
+}
+
+.contact-info {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.contact {
+    margin-top: 125px;
+    letter-spacing: 0.4em;
+}
+
+main {
+    padding-left: 300px;
+}
+
+main>.container {
+    width: 100%;
+}
+
+/* Client Profiles */
+
+.client-logo {
+    display: block;
+    /* margin: auto; */
+    max-width: 50%;
+    margin: 40px auto;
+}
+
+.client-project-img-col {
+    padding: 0 !important;
+}
+
+.client-project-img {
+    max-width: 100%;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    width: 25%;
+    background-color: #1b4a55;
+}
+
+.btn:hover {
+    background-color: #81c3c9;
+}
+
+@media only screen and (max-width: 992px) {
+    main {
+        padding-left: 0;
+    }
+    nav {
+        background-color: white;
+    }
 }
