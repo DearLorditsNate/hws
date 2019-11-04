@@ -14,6 +14,9 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
@@ -27,11 +30,15 @@
         <ul id="slide-out" class="sidenav sidenav-fixed">
             <a href="index.html"><img class="logo-nav" src="assets/hws_logo_small.png"
                     alt="Holistic Web Solutions Logo"></a>
-            <!-- <li><a href="about.html">About</a></li> -->
             <li><a href="services.html">Services</a></li>
             <li><a href="clients.html" class="active-nav">Clients</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+
+        <nav>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <h1 class="nav-header center-align">Holistic Web Solutions</h1>
+        </nav>
     </header>
 
 
@@ -54,5 +61,7 @@
         </div>
     </main>
 </body>
+
+<script src="app.js"></script>
 
 </html>

@@ -70,6 +70,29 @@ body>ul>li>a:hover {
     font-size: 3rem;
 }
 
+/* Nav */
+
+nav {
+    background-color: #1b4a55;
+    box-shadow: none;
+}
+
+.material-icons {
+    color: #1b4a55;
+}
+
+.nav-header {
+    position: relative;
+    left: -20px;
+    text-transform: uppercase;
+    color: #1b4a55;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.25em;
+}
+
 /* Services Dropdowns */
 
 .service-header {
@@ -147,5 +170,8 @@ main>.container {
 @media only screen and (max-width: 992px) {
     main {
         padding-left: 0;
+    }
+    nav {
+        background-color: white;
     }
 }
