@@ -231,7 +231,7 @@ main>.container {
         margin-bottom: 15px;
     }
     .client-row {
-        border: none;
+        border-bottom: 2px dotted #81c3c9;
         padding: 0;
     }
 }
