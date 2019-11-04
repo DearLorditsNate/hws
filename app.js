@@ -5,5 +5,3 @@ document.addEventListener("DOMContentLoaded", function() {
   var mobileNavElems = document.querySelectorAll(".sidenav");
   var mobileNavInstances = M.Sidenav.init(mobileNavElems);
 });
-
-console.log("whattup");
