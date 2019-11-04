@@ -236,4 +236,7 @@ main>.container {
     .no-border {
         border: none;
     }
+    .collapsible {
+        margin-top: 0;
+    }
 }
